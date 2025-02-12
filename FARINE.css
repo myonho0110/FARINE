@@ -1,0 +1,460 @@
+body {
+    background-color: #ddcba3;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Shippori Mincho", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pagetop {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    background: #572915;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop img {
+    height: 15px;
+    width: 15px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 196px;
+    background-color: white;
+}
+
+header img {
+    width: 250px;
+    height: 60px;
+}
+
+.contents {
+    display: flex;
+}
+
+.contents a {
+    position: relative;
+    margin:15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contents a::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1.5px;
+    background-color: #B06134;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.contents a:hover::after {
+    visibility: visible;
+    top: 20px;
+    opacity: 1;
+}
+
+.eye-catch {
+    position: relative;
+}
+
+.eye-catch img {
+    width: 100%;
+    height: 700px;
+}
+
+.left img {
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.right img {
+    position: absolute;
+    color: white;
+    top: 350px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+.box1 {
+    width: 30px;
+    height: 7px;
+    background-color: rgb(92, 92, 92);
+    border:1px white solid;
+    margin: 0 5px;
+}
+
+.introducation {
+    width: 100%;
+}
+
+.explaination {
+    background-image: url(farine.png);
+    width: 100%;
+    height: 630px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.explaination h2 {
+    font-size: 37px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 70px;
+    margin-top: 150px;
+}
+
+.explaination h3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.explaination p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.btn-introducation {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding:15px 25px;
+    border:  1px solid;
+    color: white;
+    border-radius:8px;
+    margin-top:30px;
+}
+
+.btn:hover {
+    background-color: #572915cb;
+
+}
+
+.btn2:hover {
+    opacity: 0.8;
+}
+
+.btn img {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+.viewmore {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+}
+
+.item h1 {
+    width: 100%;
+    border-top: 2px #d6c49e solid;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    color: #572915;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+
+.item h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: #572915;
+}
+
+.item p {
+    display: flex;
+    justify-content: center;
+    color: #B06134;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.picture img {
+    width: 350px;
+    margin: 10px 15px;
+}
+
+.first {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.onlineshop {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.guid {
+    background-image:url(present.png) ;
+    width: 1110px;
+    height: 486px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.waku {
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onlineshop h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 65px;
+}
+
+.waku p {
+    padding-top: 1%;
+    padding-bottom: 3px;
+}
+
+.news {
+
+    width: 100%;
+    padding:100px 200px;
+}
+
+.announce h2 {
+    display: flex;
+    justify-content: center;
+    color: #572915;
+    font-size: 37px;
+    font-weight: bold;
+    border-top: 2px #d6c49e solid;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.announce a {
+    color: #572915;
+    font-size: 17px;
+    padding-top: 20px;
+    display: block;
+}
+
+.announce p {
+    color: #5729158b;
+    border-bottom: 2px #d6c49e solid;
+    padding-bottom: 15px;
+    padding-top: 7px;
+}
+
+.osirase {
+    padding: 0 150px;
+}
+
+.shop {
+    background-color: #FFF3D8;
+    color: #572915;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.map iframe {
+    padding:0 15px;
+}
+
+.shop h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 170px;
+
+}
+
+.address h3 {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.address p {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-shop {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-shop img {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #572915;
+}
+
+.btn2 {
+    padding:15px 25px;
+    border:  1px solid;
+    color: white;
+    border-radius:8px;
+    margin-top:30px;
+}
+
+.recruit {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.staff {
+    background-image: url(recruit.png);
+    width: 1110px;
+    height: 486px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.waku2 {
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.waku2 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 65px;
+}
+
+.waku2 p {
+    padding-top: 1%;
+    padding-bottom: 3px;
+}
+
+.contact {
+    background-color: #FFF3D8;
+    color: #572915;
+    margin-bottom: 100px;
+}
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.contact p {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    padding: 100px 0;
+}
+
+.btn-contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn-contact img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #572915;
+}
+
+footer {
+    border-top: 1px #572915 solid;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding: 30px 0;
+}
