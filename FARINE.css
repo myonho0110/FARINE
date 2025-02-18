@@ -458,3 +458,24 @@ footer {
     font-size: 13px;
     padding: 30px 0;
 }
+
+/*PC用*/
+@media(max-width: 1920px ) {
+    body {
+        background-color: rgba(255, 0, 0, 0.566);
+    }
+}
+
+/*タブレット用*/
+@media(max-width: 1280px ) {
+    body {
+        background-color: blue;
+    }
+}
+
+/*スマホ用*/
+@media(max-width: 414px ) {
+    body {
+        background-color: green;
+    }
+}
