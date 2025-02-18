@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box;
+  }
+
 body {
     background-color: #ddcba3;
     font-weight: 400;
@@ -34,7 +38,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    padding: 0 196px;
+    padding: 0 13%;
     background-color: white;
 }
 
@@ -49,7 +53,7 @@ header img {
 
 .contents a {
     position: relative;
-    margin:15px;
+    padding:15px;
     font-weight: bold;
     font-size: 15px;
 }
@@ -61,7 +65,7 @@ header img {
     width: 100%;
     height: 1.5px;
     background-color: #B06134;
-    top: 10px;
+    top: 30px;
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
@@ -69,7 +73,7 @@ header img {
 
 .contents a:hover::after {
     visibility: visible;
-    top: 20px;
+    top: 38px;
     opacity: 1;
 }
 
@@ -77,9 +81,13 @@ header img {
     position: relative;
 }
 
-.eye-catch img {
+.pc {
     width: 100%;
-    height: 700px;
+}
+
+.sp {
+    width: 100%;
+    display: none;
 }
 
 .left img {
@@ -125,7 +133,10 @@ header img {
     width: 100%;
     height: 630px;
     color: white;
-    margin-bottom: 100px;
+    margin: 100px 0;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
 }
 
 .explaination h2 {
@@ -133,21 +144,29 @@ header img {
     font-weight: bold;
     display: flex;
     justify-content: center;
-    padding-top: 200px;
     padding-bottom: 70px;
-    margin-top: 150px;
+
 }
 
 .explaination h3 {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.explaination h4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .explaination p {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
 }
 
 .btn-introducation {
@@ -460,22 +479,71 @@ footer {
 }
 
 /*PC用*/
-@media(max-width: 1920px ) {
+@media screen and (max-width: 1920px) {
     body {
         background-color: rgba(255, 0, 0, 0.566);
     }
+    .pc { display: block !important;}
+    .sp { display: none !important ;}
 }
 
 /*タブレット用*/
-@media(max-width: 1280px ) {
+@media screen and (max-width: 1280px) {
     body {
         background-color: blue;
     }
 }
 
 /*スマホ用*/
-@media(max-width: 414px ) {
+@media screen and (max-width: 414px) {
     body {
-        background-color: green;
+      background-color: purple ;
     }
-}
+    header {
+        width: 100%;
+        height: 70px;
+    }
+    header img {
+        width: 160px;
+        height: 45px;
+    }
+    
+    .contents {
+        display: none;
+    }
+    .pc {
+        display: none !important; }
+    .sp { display: block !important;}
+
+    .explaination {
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    .explaination h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .explaination h3 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        margin: 30px;
+        font-size: 15px;
+    }
+    
+    .explaination h4 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    .explaination p {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+  }
