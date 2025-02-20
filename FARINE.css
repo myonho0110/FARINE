@@ -209,7 +209,7 @@ header img {
 .item h1 {
     width: 100%;
     border-top: 2px #d6c49e solid;
-    padding-top: 40px;
+    padding-top: 100px;
     padding-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -238,7 +238,8 @@ header img {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 15px 0;
+    margin-top: 50px ;
+    border-bottom: 2px #d6c49e solid;
 }
 
 .picture img {
@@ -251,6 +252,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .onlineshop {
@@ -290,7 +292,7 @@ header img {
 .news {
 
     width: 100%;
-    padding:100px 200px;
+    padding:100px 200px ;
 }
 
 .announce h2 {
@@ -300,7 +302,7 @@ header img {
     font-size: 37px;
     font-weight: bold;
     border-top: 2px #d6c49e solid;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -325,7 +327,7 @@ header img {
 .shop {
     background-color: #FFF3D8;
     color: #572915;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 100px;
     margin-bottom: 100px;
 }
@@ -345,7 +347,7 @@ header img {
     justify-content: center;
     font-size: 37px;
     font-weight: bold;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .address {
@@ -550,6 +552,25 @@ footer {
     .item p {
         font-size: 20px;
         padding-top: 10px;
+    }
+
+    .picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    
+    .picture img {
+        width: 100%;
+        padding: 0 5% ;
+    }
+    
+    .first {
+        width: 1300px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .news {
