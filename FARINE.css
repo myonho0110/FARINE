@@ -576,7 +576,8 @@ footer {
     .news {
 
         width: 100%;
-        padding: 0%;
+        padding: 0 5%;
+        padding-bottom: 100px;
     }
     
     .announce h2 {
@@ -586,7 +587,7 @@ footer {
         font-size: 30px;
         font-weight: bold;
         border-top: 2px #d6c49e solid;
-        padding-top: 30px;
+        padding-top: 100px;
         padding-bottom: 50px;
     }
     
