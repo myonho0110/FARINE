@@ -500,6 +500,10 @@ footer {
         width: 200px;
         height: 50px;
     }
+
+    .boxes,.right,.left {
+        display: none;
+    }
     
     .contents a {
         padding:5px;
