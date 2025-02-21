@@ -490,8 +490,41 @@ footer {
     .sp { display: none !important ;}
 }
 
-/*タブレット用*/
+/*大型タブレット用*/
 @media screen and (max-width: 1280px) {
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0 13%;
+        background-color: white;
+    }
+    
+    header img {
+        width: 250px;
+        height: 60px;
+    }
+    
+    .contents {
+        display: flex;
+    }
+    
+    .contents a {
+        position: relative;
+        padding:15px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+}
+
+/*小型タブレット*/
+@media screen and (max-width:768ox) {
+    .contents {
+        display: none;
+    }
 }
 
 /*スマホ用*/
