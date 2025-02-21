@@ -90,6 +90,10 @@ header img {
     display: none;
 }
 
+.text p {
+    display: none;
+}
+
 .left img {
     position: absolute;
     color: white;
@@ -507,7 +511,23 @@ footer {
     }
     .pc {
         display: none !important; }
-    .sp { display: block !important;}
+    .sp { 
+        display: block !important;
+    }
+
+    .text {
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        font-size: 25px;
+        font-weight:550;
+        color: white;
+    }
+
+    .text p {
+        display: flex;
+        justify-content: center;
+    }
 
     .boxes,.right,.left {
         display: none;
