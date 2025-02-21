@@ -492,38 +492,96 @@ footer {
 
 /*大型タブレット用*/
 @media screen and (max-width: 1280px) {
+
+    
+}
+
+/*小型タブレット*/
+@media screen and (max-width:768px) {
     header {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 100px;
-        padding: 0 13%;
+        padding: 0 5%;
         background-color: white;
     }
     
-    header img {
-        width: 250px;
-        height: 60px;
-    }
-    
-    .contents {
-        display: flex;
-    }
-    
-    .contents a {
-        position: relative;
-        padding:15px;
-        font-weight: bold;
-        font-size: 15px;
-    }
-    
-}
-
-/*小型タブレット*/
-@media screen and (max-width:768ox) {
     .contents {
         display: none;
+    }
+
+    .boxes,.right,.left {
+        display: none;
+    }
+
+    .waku {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .news {
+        padding: 100px;
+    }
+
+    .osirase {
+        padding: 0%;
+    }
+
+    .map {
+        flex-direction: column-reverse;
+
+        margin: 0 5px;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .shop h2 {
+        padding-bottom: 0px;
+    }
+
+    .address {
+        display: block;
+        padding: 0%;
+    
+    }
+    
+    .address h3 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin-bottom: 45px;
+        margin-top: 50px;
+    }
+    
+    .address p {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .staff {
+        background-image: url(recruittr.png);
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .waku2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
 
