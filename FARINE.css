@@ -128,11 +128,11 @@ header img {
     margin: 0 5px;
 }
 
-.introducation {
+.introduction {
     width: 100%;
 }
 
-.explaination {
+.explanation {
     background-size: cover;
     background-image: url(farine.png);
     width: 100%;
@@ -144,7 +144,7 @@ header img {
     justify-content:center ;
 }
 
-.explaination h2 {
+.explanation h2 {
     font-size: 37px;
     font-weight: bold;
     display: flex;
@@ -153,28 +153,28 @@ header img {
 
 }
 
-.explaination h3 {
+.explanation h3 {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
     font-size: 20px;
 }
 
-.explaination h4 {
+.explanation h4 {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
     font-size: 20px;
 }
 
-.explaination p {
+.explanation p {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
     font-size: 20px;
 }
 
-.btn-introducation {
+.btn-introduction {
     display: flex;
     justify-content: center;
 }
@@ -480,6 +480,116 @@ footer {
     padding: 15px 0;
 }
 
+/*ABOUT*/
+
+.abouttag {
+    width: 100%;
+    color: #572915;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tr {
+    display: none;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img {
+    width: 50%;
+}
+
+.abouts {
+    width: 50%;
+}
+
+.tags h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.tags h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.tags h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px ;
+}
+
+.tags p {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 5px ;
+}
+
+.fourseasontag {
+    width: 100%;
+    color: #572915;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourseason {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourseason img {
+    width: 50%;
+}
+
+.fourseasons {
+    width: 50%;
+}
+
+.handmadetag {
+    width: 100%;
+    color: #572915;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.handmade {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handmade img {
+    width: 50%;
+}
+
+.handmades {
+    width: 50%;
+}
+
+
 /*PC用*/
 @media screen and (max-width: 1920px) {
     .pc { display: block !important;}
@@ -513,11 +623,15 @@ footer {
     .address {
         padding:0 7%;
     }
+
+    /*ABOUT*/
+
 }
 
 
 /*小型タブレット*/
 @media screen and (max-width:768px) {
+    /*HOME*/
     header {
         padding: 0 5%;
     }
@@ -597,6 +711,86 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    /*ABOUT*/
+    .pc {
+        display: none !important; }
+    .tr { 
+        display: block !important;}
+    .sp {
+        display: none !important;}
+        
+    .abouts {
+        padding: 0;
+    }
+        
+    .abouts h1 {
+        font-size: 30px;
+    }
+        
+    .abouts h2 {
+        font-size: 25px;    
+        padding-bottom: 30px;
+    }
+        
+    .abouts h3 {
+        font-size: 14px;
+        padding-bottom: 20px ;
+    }
+
+
+    .abouts p {
+        font-size: 14px;
+        padding-bottom: 5px ;
+    }
+
+    .fourseasons {
+        padding: 0;
+    }
+        
+    .fourseasons h1 {
+        font-size: 30px;
+    }
+        
+    .fourseasons h2 {
+        font-size: 25px;    
+        padding-bottom: 30px;
+    }
+        
+    .fourseasons h3 {
+        font-size: 14px;
+        padding-bottom: 20px ;
+    }
+
+
+    .fourseasons p {
+        font-size: 14px;
+        padding-bottom: 5px ;
+    }
+
+    .handmades {
+        padding: 0;
+    }
+        
+    .handmades h1 {
+        font-size: 30px;
+    }
+        
+    .handmades h2 {
+        font-size: 25px;    
+        padding-bottom: 30px;
+    }
+        
+    .handmades h3 {
+        font-size: 14px;
+        padding-bottom: 20px ;
+    }
+
+
+    .handmades p {
+        font-size: 14px;
+        padding-bottom: 5px ;
+    }
 }
 
 /*スマホ用*/
@@ -616,9 +810,10 @@ footer {
     }
     .pc {
         display: none !important; }
+    .tr {
+        display: none !important; }
     .sp { 
-        display: block !important;
-    }
+        display: block !important;}
 
     .text {
         position: absolute;
@@ -638,17 +833,17 @@ footer {
         display: none;
     }
 
-    .explaination {
+    .explanation {
         margin-top: 100px;
         height: 500px;
     }
 
-    .explaination h2 {
+    .explanation h2 {
         font-size: 30px;
         padding-bottom: 20px;
     }
     
-    .explaination h3 {
+    .explanation h3 {
         display: flex;
         justify-content: center;
         padding-bottom: 10px;
@@ -656,14 +851,14 @@ footer {
         font-size: 15px;
     }
     
-    .explaination h4 {
+    .explanation h4 {
         display: flex;
         justify-content: center;
         padding-bottom: 10px;
         font-size: 15px;
     }
     
-    .explaination p {
+    .explanation p {
         display: flex;
         justify-content: center;
         padding-bottom: 10px;
@@ -763,7 +958,6 @@ footer {
     
     .map {
         flex-direction: column-reverse;
-
         margin: 0 5px;
     }
 
@@ -799,4 +993,6 @@ footer {
         align-items: center;
         font-size: 18px;
     }
+
+    /*ABOUT*/
   }
