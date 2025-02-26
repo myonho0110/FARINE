@@ -495,6 +495,10 @@ footer {
     display: none;
 }
 
+.btr {
+    display: none;
+}
+
 .about {
     width: 100%;
     display: flex;
@@ -513,14 +517,14 @@ footer {
 .tags h1 {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
 .tags h2 {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     padding-bottom: 30px;
 }
@@ -528,7 +532,7 @@ footer {
 .tags h3 {
     display: flex;
     justify-content: center;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     padding-bottom: 30px ;
 }
@@ -536,9 +540,9 @@ footer {
 .tags p {
     display: flex;
     justify-content: center;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
-    padding-bottom: 5px ;
+    padding-bottom: 10px ;
 }
 
 .fourseasontag {
@@ -589,6 +593,97 @@ footer {
     width: 50%;
 }
 
+/*RECRUIT*/
+.salestafftag {
+    width: 100%;
+    color: #572915;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salestaff {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salestaff img {
+    width: 50%;
+}
+
+.salestaffs {
+    width: 50%;
+}
+
+.btn-salestaff {
+    display: flex;
+    justify-content: center;
+}
+
+.viewmore2 {
+    background-color: #572915;
+    margin-top: 20px;
+}
+
+.btn-salestaff img {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.tags2 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.tags2 p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px ;
+}
+
+.patissiertag {
+    width: 100%;
+    color: #572915;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patissier {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patissier img {
+    width: 50%;
+}
+
+.patissiers {
+    width: 50%;
+}
+
+.btn-patissier {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-patissier img {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
 
 /*PC用*/
 @media screen and (max-width: 1920px) {
@@ -625,6 +720,15 @@ footer {
     }
 
     /*ABOUT*/
+    .pc2 {
+        display: none !important; }
+    .tr { 
+        display: none !important;}
+    .tr2 {display: block !important;}
+    .btr {display: block !important;}
+    .sp {
+        display: none !important;}
+
     .tags h1 {
         display: flex;
         justify-content: center;
@@ -649,6 +753,23 @@ footer {
     }
     
     .tags p {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 600;
+        padding-bottom: 5px ;
+    }
+
+    /*RECRUIT*/
+    .tags2 h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    
+    .tags2 p {
         display: flex;
         justify-content: center;
         font-size: 15px;
@@ -742,10 +863,11 @@ footer {
     }
 
     /*ABOUT*/
-    .pc {
+    .pc2 {
         display: none !important; }
     .tr { 
         display: block !important;}
+    .btr {display: none !important;}
     .sp {
         display: none !important;}
         
@@ -839,8 +961,10 @@ footer {
     }
     .pc {
         display: none !important; }
-    .tr {
+    .tr {display: none !important;}
+    .tr2 {
         display: none !important; }
+    .btr {display: none !important;}
     .sp { 
         display: block !important;}
 
@@ -1030,12 +1154,12 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    }   
     
     .about img {
         width: 100%;
     }
-    
+
     .abouts {
         width: 100%;
         padding:50px 0;
@@ -1044,7 +1168,7 @@ footer {
     .tags h1 {
         display: flex;
         justify-content: center;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
     }
     
@@ -1059,7 +1183,7 @@ footer {
     .tags h3 {
         display: flex;
         justify-content: center;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
         padding-bottom: 15px ;
     }
@@ -1067,7 +1191,7 @@ footer {
     .tags p {
         display: flex;
         justify-content: center;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
         padding-bottom: 5px ;
     }
@@ -1105,4 +1229,68 @@ footer {
         width: 100%;
         padding: 50px 0;
     }
-  }
+
+    /*RECRUIT*/
+    .salestaff {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .salestaff img {
+        width: 100%;
+    }
+
+    .salestaffs {
+        width: 100%;
+        padding:50px 0;
+    }
+
+    .tags2 h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .tags2 p {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 600;
+        padding-bottom: 5px ;
+    }
+
+    .btn-salestaff {
+        font-size: 13px;
+    }
+    
+    .btn-salestaff img {
+        width: 14px;
+        height: 14px;
+        margin-left: 10px;
+    }
+
+    .patissier {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .patissier img {
+        width: 100%;
+    }
+
+    .patissiers {
+        width: 100%;
+        padding:50px 0;
+    }
+
+    .btn-patissier {
+        font-size: 12px;
+    }
+    
+    .btn-patissier img {
+        width: 14px;
+        height: 14px;
+        margin-left: 10px;
+    }
+}
