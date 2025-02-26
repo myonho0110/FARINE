@@ -689,6 +689,8 @@ footer {
 @media screen and (max-width: 1920px) {
     .pc { display: block !important;}
     .sp { display: none !important ;}
+    .tr2 {display: none !important;}
+
 }
 
 /*大型タブレット用*/
