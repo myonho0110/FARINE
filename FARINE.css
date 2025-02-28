@@ -777,7 +777,9 @@ footer {
 
 .contact-submit {
     width: 100px;
-    background-color: #572915;
+    display: block;
+    background-color: #572915 !important ;
+    color: white;
 }
 
 /*PC用*/
