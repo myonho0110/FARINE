@@ -699,7 +699,6 @@ footer {
     flex-direction: column;
     align-items: center;
     color: #572915;
-
 }
 
 .contacttel {
@@ -1391,5 +1390,14 @@ footer {
         width: 14px;
         height: 14px;
         margin-left: 10px;
+    }
+
+    /*CONTACT*/
+    .contactform {
+        width: 90%;
+    }
+
+    .contactmail-text {
+        width: 70%;
     }
 }
