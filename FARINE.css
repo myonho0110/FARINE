@@ -78,6 +78,7 @@ header img {
 }
 
 .eye-catch {
+    width: 100%;
     position: relative;
 }
 
@@ -92,40 +93,6 @@ header img {
 
 .text p {
     display: none;
-}
-
-.left img {
-    position: absolute;
-    color: white;
-    top: 350px;
-    left: 5px;
-    width: 25px;
-    height: 25px;
-}
-
-.right img {
-    position: absolute;
-    color: white;
-    top: 350px;
-    right: 5px;
-    width: 25px;
-    height: 25px;
-}
-
-.boxes {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-}
-
-.box1 {
-    width: 30px;
-    height: 7px;
-    background-color: rgb(92, 92, 92);
-    border:1px white solid;
-    margin: 0 5px;
 }
 
 .introduction {
