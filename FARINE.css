@@ -1047,10 +1047,6 @@ footer {
         justify-content: center;
     }
 
-    .boxes,.right,.left {
-        display: none;
-    }
-
     .explanation {
         margin-top: 100px;
         height: 500px;
